@@ -7,6 +7,7 @@ import config
 # main variables
 TOKEN = "1106845063:AAFUWishJZFfzOL9YWElj6GrXjfeLiWxUWs"
 bot = telebot.TeleBot('1106845063:AAFUWishJZFfzOL9YWElj6GrXjfeLiWxUWs')
+bot = telebot.TeleBot(config.telebot_token)
 
 
 class BotHandler:
