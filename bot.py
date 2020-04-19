@@ -2,7 +2,7 @@ import telebot
 import random
 import config
 import requests
-import datetime
+
 #main variables
 TOKEN = "1106845063:AAFUWishJZFfzOL9YWElj6GrXjfeLiWxUWs"
 bot = telebot.TeleBot(config.TOKEN)
