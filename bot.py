@@ -6,7 +6,7 @@ import telebot
 bot = telebot.TeleBot('1106845063:AAFUWishJZFfzOL9YWElj6GrXjfeLiWxUWs')
 
 
-@bot.message_handler(commands=['start', 'go'])
+@bot.message_handler(commands=['start'])
 def start_handler(message):
     bot.send_message(message.chat.id, 'Привет, я пишу речи для ваших выступлений! Для начала напишите "!Речь"')
     bot.polling(none_stop=True)
