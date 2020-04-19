@@ -7,7 +7,7 @@ future==0.18.2
 idna==2.9
 pipenv==2018.11.26
 pyTelegramBotAPI==3.6.7
-python-telegram-bot==7.0.1
+python-telegram-bot==12.6.1
 pytz==2019.3
 requests==2.23.0
 six==1.14.0

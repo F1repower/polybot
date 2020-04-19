@@ -3,7 +3,9 @@ import random
 import config
 import requests
 import datetime
-
+#main variables
+TOKEN = "1106845063:AAFUWishJZFfzOL9YWElj6GrXjfeLiWxUWs"
+bot = telebot.TeleBot(config.TOKEN)
 class BotHandler:
 
     def __init__(self, token):
@@ -32,9 +34,7 @@ class BotHandler:
             last_update = get_result[None]
         return last_update
 
-#main variables
-TOKEN = "1106845063:AAFUWishJZFfzOL9YWElj6GrXjfeLiWxUWs"
-bot = telebot.TeleBot(config.TOKEN)
+
 
 @bot.message_handler(commands=['start', 'go'])
 def start_handler(message):
