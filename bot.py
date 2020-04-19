@@ -5,7 +5,7 @@ import requests
 
 #main variables
 TOKEN = "1106845063:AAFUWishJZFfzOL9YWElj6GrXjfeLiWxUWs"
-bot = telebot.TeleBot(1106845063:AAFUWishJZFfzOL9YWElj6GrXjfeLiWxUWs)
+bot = telebot.TeleBot('1106845063:AAFUWishJZFfzOL9YWElj6GrXjfeLiWxUWs')
 class BotHandler:
 
     def __init__(self, token):
